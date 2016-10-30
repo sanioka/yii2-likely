@@ -3,7 +3,7 @@
 /**
  * @copyright Copyright &copy; Mooza, Mooza.ru, 2016
  * @package yii2-widgets
- * @subpackage yii2-widget-ilyabirman-likely
+ * @subpackage yii2-likely
  * @version 1.0.0
  */
 
@@ -16,7 +16,7 @@ use yii\base\Widget;
  * This plugin is a simple and beautiful created for adding social sharing buttons that aren’t shabby.
  *
  * @see https://github.com/ilyabirman/Likely
- * @see https://github.com/mooza/yii2-widget-ilyabirman-likely
+ * @see https://github.com/mooza/yii2-likely
  * @author Mooza <info@mooza.ru>
  * @since 1.0
  */

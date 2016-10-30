@@ -5,25 +5,25 @@ The Likely widget is a wrapper for the [Likely Plugin](https://github.com/ilyabi
 
 ## Installation
 
-The preferred way to install this extension is through [composer](http://getcomposer.org/download/). Check the [composer.json](https://github.com/mooza/yii2-widget-ilyabirman-likely/blob/master/composer.json) for this extension's requirements and dependencies.
+The preferred way to install this extension is through [composer](http://getcomposer.org/download/). Check the [composer.json](https://github.com/mooza/yii2-likely/blob/master/composer.json) for this extension's requirements and dependencies.
 
 To install, either run
 
 ```
-$ php composer.phar require mooza/yii2-widget-ilyabirman-likely "*"
+$ php composer.phar require mooza/yii2-likely "*"
 ```
 
 or add
 
 ```
-"mooza/yii2-widget-ilyabirman-likely": "*"
+"mooza/yii2-likely": "*"
 ```
 
 to the ```require``` section of your `composer.json` file.
 
 ## Latest Release
 
-> NOTE: The latest version of the module is v1.0.0. Refer the [CHANGE LOG](https://github.com/mooza/yii2-widget-ilyabirman-likely/blob/master/CHANGE.md) for details.
+> NOTE: The latest version of the module is v1.0.0. Refer the [CHANGE LOG](https://github.com/mooza/yii2-likely/blob/master/CHANGE.md) for details.
 
 ## Usage
 
@@ -48,4 +48,4 @@ echo Likely::widget([
 
 ## License
 
-**yii2-widget-ilyabirman-likely** is released under the BSD 3-Clause License. See the bundled `LICENSE.md` for details.
+**yii2-likely** is released under the BSD 3-Clause License. See the bundled `LICENSE.md` for details.
