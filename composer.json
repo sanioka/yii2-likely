@@ -1,0 +1,29 @@
+{
+    "name": "mooza/yii2-widget-ilya-birman-likely",
+    "description": "A Yii2 widget for simple and beautiful ilya-birman-likely plugin created for adding  social networks 'share links'",
+    "keywords": ["yii2", "extension", "widget", "ilya", "birman", "likely", "social", "sharing", "share", "link", "jquery", "plugin"],
+    "homepage": "https://github.com/mooza/yii2-widget-ilya-birman-likely",
+    "type": "yii2-extension",
+    "license": "BSD 3-Clause",
+    "authors": [
+        {
+            "name": "Mooza",
+            "email": "info@mooza.ru",
+            "homepage": "http://www.mooza.ru/"
+        }
+    ],
+    "require": {
+        "bower-asset/ilyabirman-likely": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mooza\\likely\\": ""
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
