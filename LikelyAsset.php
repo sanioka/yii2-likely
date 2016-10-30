@@ -7,7 +7,7 @@
  * @version 1.0.0
  */
 
-namespace frontend\widgets\mooza\likely;
+namespace mooza\likely;
 
 use yii\web\AssetBundle;
 
