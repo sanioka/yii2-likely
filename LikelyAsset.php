@@ -3,7 +3,7 @@
 /**
  * @copyright Copyright &copy; Mooza, mooza.ru, 2016
  * @package yii2-widgets
- * @subpackage yii2-widget-ilyabirman-likely
+ * @subpackage yii2-likely
  * @version 1.0.0
  */
 
