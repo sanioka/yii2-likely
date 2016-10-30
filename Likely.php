@@ -9,6 +9,7 @@
 
 namespace mooza\likely;
 
+use Yii;
 use yii\base\Widget;
 
 /** The Ilya Birman's Likely widget is a wrapper for the Likely Plugin designed by Ilya Birman.
@@ -82,12 +83,12 @@ class Likely extends Widget
             if (filter_var($this->pluginOptions['url'], FILTER_VALIDATE_URL) === FALSE) {
                 $this->addError('url');
             } else {
-                $this->options['url'] = $this->pluginOptions['url'];
+                $this->options['url'] = 'data-url="' . $this->pluginOptions['url'] . '"';
             }
         }
 
         if (array_key_exists('title', $this->pluginOptions) && $this->pluginOptions['title'] != '') {
-            $this->options['title'] = $this->pluginOptions['title'];
+            $this->options['title'] = 'data-title="' . $this->pluginOptions['title'] . '"';
         }
 
         if (array_key_exists('colorClass', $this->pluginOptions) && $this->pluginOptions['colorClass'] != '') {
@@ -121,7 +122,8 @@ class Likely extends Widget
                             }
 
                             if ($item['class'] == 'twitter' && $item['via'] != '') {
-                                $this->options['items'][$i]['via'] = $item['via'];
+                                $this->options['items'][$i]['via'] = 'data-via="' . $item['via'] . '"';
+
                             }
 
                             if ($item['class'] == 'facebook' && $item['imagePath'] != '') {
@@ -129,12 +131,12 @@ class Likely extends Widget
                             }
 
                             if ($item['class'] == 'telegram' && $item['text'] != '') {
-                                $this->options['items'][$i]['text'] = $item['text'];
+                                $this->options['items'][$i]['text'] = 'data-text="' . $item['text'] . '"';
                             }
 
                             if ($item['class'] == 'pinterest' && $item['media'] != '') {
                                 if (file_exists($item['media'])) {
-                                    $this->options['items'][$i]['media'] = $item['media'];
+                                    $this->options['items'][$i]['media'] = 'data-media="' . $item['media'] . '"';
                                 } else {
                                     $this->addError('items', $i, 'media');
                                 }
@@ -186,6 +188,11 @@ class Likely extends Widget
             ];
         }
         return true;
+    }
+
+    protected function generateHtml()
+    {
+
     }
 
     /**
