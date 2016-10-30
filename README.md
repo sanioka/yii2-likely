@@ -1,4 +1,4 @@
-yii2-widget-ilya-birman-likely
+yii2-widget-ilyabirman-likely
 ==================
 
 The Likely widget is a wrapper for the [Likely Plugin](https://github.com/ilyabirman/Likely) JS Plugin designed by Ilya Birman. This plugin is a simple and beautiful created for adding social sharing buttons that aren’t shabby.
@@ -16,7 +16,7 @@ $ php composer.phar require mooza/yii2-widget-ilyabirman-likely "*"
 or add
 
 ```
-"mooza/yii2-widget-ilya-birman-likely": "*"
+"mooza/yii2-widget-ilyabirman-likely": "*"
 ```
 
 to the ```require``` section of your `composer.json` file.
