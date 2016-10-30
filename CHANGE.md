@@ -1,4 +1,4 @@
-Change Log: `yii2-widget-ilya-birman-likely`
+Change Log: `yii2-likely`
 ================================
 
 ## Version 1.0.0
