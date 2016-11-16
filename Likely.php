@@ -217,7 +217,7 @@ class Likely extends Widget
      */
     protected function registerFacebookImageMeta($path, $i)
     {
-        if (file_exists($path)) {
+        if (file_exists($path) || (Yii::getAlias('@webroot', false) && file_exists(Yii::getAlias('@webroot') . $path))) {
             $view = $this->getView();
             $view->registerMetaTag(['property' => 'og:image', 'content' => $path]);
         } else {
