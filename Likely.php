@@ -7,7 +7,7 @@
  * @version 1.0.0
  */
 
-namespace mooza\likely;
+namespace sanioka\likely;
 
 use Yii;
 use yii\base\Widget;
